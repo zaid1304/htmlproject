@@ -6,12 +6,13 @@
     -moz-box-sizing: border-box;
 }
 body{
-    background-color:white;
+    background-color:#Fbf7ec;
 }
 nav{
     width: 100%;
     height: 100px;
-    background-color: bisque;
+    background-color: #Fbf7ec;
+    position:fixed;
 }
 .container{
     width: 100%;
@@ -30,8 +31,8 @@ nav{
     justify-content: space-between;
     flex-direction: row;
     align-items: flex-start;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 19px;
+    font-weight: lighter;
     color:rgb(36, 27, 27)
      
 }
@@ -55,32 +56,33 @@ nav{
 .div2{
     padding-left: 30px;
     padding-right: 20px;
-     padding-top: 5px;
+     padding-top: 7px;
+     font-weight: lighter;
 }
 .div3{
     padding-left: 30px;
     padding-right: 20px;
-    padding-top: 5px;
+    padding-top: 7px;
 }
 
 .div4{
     padding-left: 30px;
     padding-right: 20px;
-    padding-top: 5px;
+    padding-top: 7px;
 }
 
 .div5{
     padding-left: 30px;
     padding-right: 20px;
-    padding-top: 5px;
+    padding-top: 7px;
 }
 .content-2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-size: 20px;
-    margin-right: 50px;
+    font-size: 18px;
+    margin-right: 40px;
     
 }
 .div6,.div7,.div8,.div9{
@@ -89,8 +91,8 @@ nav{
     padding-top: 0px;  
 }
 .div9 button{
-    width: 150px;
-    height: 40px;
+    width: 170px;
+    height: 45px;
     background-color: rgb(34, 87, 34);
     border-radius: 5px;
     color: white;
@@ -100,5 +102,93 @@ nav{
 
 }
 .text-content{
-    margin: 15% 8% ; 
+    width: 100%;
+    height: 100vh;
+    /* height: 80vh; */
+    /* padding: 3% 0%; */
+    /* margin: 15% 8% ;  */
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#Fbf7ec;
+}
+.email{
+    width: 65%;
+    height: 70vh;
+    margin-left:5%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.mail1,.mail2,.mail3{
+    padding: 30px 0px;
+}
+.mail1{
+    font-size: 60px;
+    font-weight:900 ;
+    color: rgb(35, 65, 35);
+}
+.mail2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.e-mail{
+    width: 340px;
+    height: 45px;
+    text-align:start;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding:20px;
+}
+.mail3{
+    
+    font-size: 15px;
+    color: rgb(48, 36, 36);
+}
+.image{
+  width: 55%;
+  height: 70vh;
+  padding-top: -100px;
+  align-items: center;
+    
+}
+.green{
+    margin-top: 50px;
+    width: 100%;
+    height: 180vh;
+    background-color: #004c3f;
+    z-index: 1;
+     
+}
+.green-content{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+    padding-top: 100px;
+    align-items: flex-start;
+
+}
+.heading{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   padding-left: 10%;
+
+}
+.head1{
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+}
+.head2{
+    display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    color: white;
 }
