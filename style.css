@@ -169,7 +169,11 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content:flex-start ;
-    padding-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+   padding-top: 7%;
+    
+    /* padding: 6% 0% 6% 6% ; */
     align-items: flex-start;
 
 }
@@ -177,18 +181,75 @@ nav{
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
-   padding-left: 10%;
+   
+   padding-bottom: 80px;
 
 }
 .head1{
-    font-size: 50px;
+    font-size: 45px;
     color: white;
     font-weight: 400;
 }
 .head2{
     display: flex;
    flex-direction: row;
-    justify-content: space-between;
-    font-size: 20px;
+   justify-content:space-between; 
+    font-size: 17px;
     color: white;
+}
+.line2{
+    padding-left: 300px;
+}
+.photos{
+    width: 100%;
+    height: 70vh;
+   padding-left:4% ;
+   padding-right: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+   
+}
+.photos .img1,.img2,.img3,.img4,.img5 {
+    padding: 0% 1% 0% 0%;
+
+}
+.plain-text{
+    padding-top: 8%;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+
+}
+.bussiness{
+    padding-top: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 19px;
+    /* font-weight: 200; */
+    color: white;
+
+}
+.bussiness .bus1-text{
+    
+}
+.bus1-para{
+    font-weight: 100;
+    padding-top: 20px;
+  
+    
+}
+.stat1{
+    padding-right: 20px;
+}
+.bus-logo1{
+    width: 30px;
+    height: 30px;
+    
 }
