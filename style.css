@@ -424,6 +424,52 @@ nav{
 
 }
 
+.alicia{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    padding-left: 6%;
+    padding-right: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.alicia-cont1 img{
+    height: 100%;
+    object-fit: contain;
+
+}
+.alicia-cont2{
+    background-color: #002E25;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 8%;
+    padding-left: 11%;
+    padding-right:11%;
+
+}
+.alicia1{
+    font-size: 30px;
+    font-weight: 500;
+    color:white;
+   
+    text-align: center;
+    text-decoration: wavy;
+
+}
+.company{
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+
+}
 
 
 
